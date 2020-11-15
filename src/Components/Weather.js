@@ -10,7 +10,7 @@ export default function Weather() {
     async function fetchData() {
       try {
         const response = await axios.get(
-          "http://api.openweathermap.org/data/2.5/forecast?q=bengaluru&appid=a0b11112269b7756f3593c03f2485965&units=metric"
+          "https://api.openweathermap.org/data/2.5/forecast?q=bengaluru&appid=a0b11112269b7756f3593c03f2485965&units=metric"
         );
         setWeather(response.data.list);
         setCurrentWeather(response.data.list[0]);
