@@ -1,0 +1,31 @@
+.current-weather {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 84px;
+}
+
+.upcoming {
+    overflow-x: scroll;
+    margin: 24px 0;
+}
+
+.upcoming-weather-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.weather-item {
+    min-width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.temp {
+    font-size: 36px;
+}
