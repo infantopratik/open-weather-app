@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Deployment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is deployed in the following URL,
+Open [https://pratikinfanto.netlify.app/](https://pratikinfanto.netlify.app/) to view the app in the browser.
+
+# Product Roadmap
+
+Given more time to spend on this project, the following features can be implemented,
+
+1. Dynamic locations - Ability to select the location and then fetch the weather data for it.
+2. Multiple units - Show temperatures in both Celsius and Fahrenheit.
+3. Setup CI/CD - Configure CirleCI and Netlify to setup Continuous Delivery for this project.
 
 ## Available Scripts
 
@@ -28,11 +37,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-# Product Roadmap
-
-Given more time to spend on this project, the following features can be implemented,
-
-1. Dynamic locations - Ability to select the location and then fetch the weather data for it.
-2. Multiple units - Show temperatures in both Celsius and Fahrenheit.
-3. Setup CI/CD - Configure CirleCI and Netlify to setup Continuous Delivery for this project.
